@@ -1,0 +1,113 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Ropey DVD's Dashboard</h1>
+   <body>
+       
+       <table style="margin-left:150px;">
+
+                    <td>
+           <div class="card" style="height: 25rem; width: 15rem;">
+            <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/4514/4514934.png" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text">Search a DVD by entering actor's last name</p>
+            <a href="/ActorDVD" class="btn btn-primary">Search DVD</a>
+            </div>
+           </div>
+           </td>
+
+       <td>
+       <div class="card" style="height: 25rem; width: 15rem;">
+        <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/1036/1036762.png" alt="Card image cap">
+        <div class="card-body">
+        <p class="card-text">Search a DVD by entering actor's last name which is available on shelv</p>
+        <a href="/DVDonShelves" class="btn btn-primary">DVD on Shelves</a>
+        </div>
+       </div>
+       </td>
+
+               
+                    
+                <td>
+       <div class="card" style="height: 25rem; width: 15rem;">
+        <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/3029/3029373.png" alt="Card image cap">
+        <div class="card-body">
+        <p class="card-text">Enter member's last name to view their loan history of past 31 days </p>
+        <a href="/MemberLoans" class="btn btn-primary">Search member's loan</a>
+        </div>
+       </div>
+       </td>
+
+        <td>
+       <div class="card" style="height: 25rem; width: 15rem;">
+        <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/1038/1038100.png" alt="Card image cap">
+        <div class="card-body">
+        <p class="card-text">Detailed info of DVDs including its producer, studio, cast members with released date</p>
+        <a href="/DVDDetails" class="btn btn-primary">View all DVDs</a>
+        </div>
+       </div>
+       </td>
+
+     
+
+       <tr>
+
+             <td>
+       <div class="card" style="height: 25rem; width: 15rem;">
+        <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/7449/7449995.png" alt="Card image cap">
+        <div class="card-body">
+        <p class="card-text">Enter a member's number and view their last loan information</p>
+        <a href="/DVDLoan" class="btn btn-primary">Member's last loan</a>
+        </div>
+       </div>
+       </td>
+
+        <td>
+        <div class="card" style="height: 25rem; width: 15rem;">
+        <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/2058/2058198.png" alt="Card image cap">
+        <div class="card-body">
+        <p class="card-text">Create a new loan record by providing member and available DVD information</p>
+        <a href="/Loans/Create" class="btn btn-primary">Add new loan</a>
+        </div>
+       </div>
+       </td>
+
+          <td>
+        <div class="card" style="height: 25rem; width: 15rem;">
+        <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/2683/2683274.png" alt="Card image cap">
+        <div class="card-body">
+        <p class="card-text">Manage loan related tasks like viewing, editing loan status</p>
+        <a href="/Loans" class="btn btn-primary">Manage Loans</a>
+        </div>
+       </div>
+       </td>
+
+          <td>
+        <div class="card" style="height: 25rem; width: 15rem;">
+        <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/1256/1256650.png" alt="Card image cap">
+        <div class="card-body">
+        <p class="card-text">View all the members of the shop and their loan related information</p>
+        <a href="/MemberDetails" class="btn btn-primary">Member Details</a>
+        </div>
+       </div>
+       </td>
+</tr>
+<tr>
+         <td>
+        <div class="card" style="height: 25rem; width: 15rem;">
+        <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/2921/2921226.png" alt="Card image cap">
+        <div class="card-body">
+        <p class="card-text">Add new DVD information in the shop and their related information</p>
+            <a href="/DVDTitles/Create" class="btn btn-primary">Add DVD</a>
+        </div></div>
+       </td>
+
+       </tr>
+                
+
+       </table>
+
+   </body>
+</div>
