@@ -27,12 +27,6 @@ Visual Studio or with command ‘dotnet run’.
 <span id="_Toc102992326" class="anchor"></span>Table 1 Concise
 description of functionalities
 
-# Software Architecture
-
-![mvc architecture - ASP.Net Core MVC](media/image15.jpeg)
-
-<span id="_Toc102992325" class="anchor"></span>Figure 15 MVC
-Architecture
 
 Working mechanism of MVC architecture in short:
 
